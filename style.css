@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Playwrite+CZ:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*tipografia*/
+h1, h3 {
+    font-family: var(--font-premium);
+    text-align: center;
+}
+p {
+    font-family: var(--fonte);
+}
+:root {
+    --color0: #2C2E33;
+    --color01: #1962e0;
+    --color02: #3263b6;
+    --color03: #3b4961;
+    --color04: #3e5a8b;
+
+    --font-premium:"Bebas Neue", sans-serif;
+    --fonte: "Roboto", sans-serif;
+}
+
+/*fundo*/
+body {
+    background: linear-gradient(190deg, black, #2e0d58);
+}
+
+/*ajustes geral das divs*/
+div {
+    background-color: #7C3AED;
+    color: white;
+    padding: 2px 20px 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 1px 4px 25px 4px #7C3AED;
+}
+.titulo, #sobre, #habilidades, #objetivos, #direitos {
+    margin-bottom: 60px;
+}
+p {
+    text-align: center;
+}
+
+/*rodape*/
+.titulo {
+    text-align: center;
+}
+h1 { 
+    font-size: 38px;
+}
+#subtitulo {
+    font-size: 20px;
+    margin-top: 0px;
+}
+h3 {
+    font-size: 28px;
+}
+/*Ajustando rodapé*/
+#menu {
+    margin-bottom: 80px;
+    padding-bottom: 27px;
+}
+
+/*Foto no Sobre*/
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+
+    float: right;
+    position: relative;
+    top: -60px;
+    box-shadow: 3px 15px 40px 3px #000000;
+    margin-left: 22px;
+    margin-right: 10px;
+}
+
+/*meio*/
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/*links*/
+a {
+    /*estilização*/
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background-color: #a855f7;
+    /*ajustes*/
+    margin-right: 7px;
+    margin-left: 7px;
+    padding: 6px;
+    border-radius: 9px;
+}
+
+/*autorais*/
+#direitos {
+    margin: 9px;
+    text-align: left;
+}
+
+/*pseudoclasse*/
+a:hover {
+    text-decoration: underline;
+}
+section:hover, .titulo:hover {
+    transform: translateY(-5px);
+}
+#direitos:hover {
+    transform: none;
+}
