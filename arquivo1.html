@@ -3,79 +3,179 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/style.css">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
-    <header class="titulo">
-        <div id="menu">
-        <h1>
-        Christyan Menezes
-        </h1>
-        <h3 id="subtitulo">
-        Desenvolvedor Full Stack</h3>
-        <nav>
-            <a class="link" href="#">
-                Email
-            </a>
-            <a class="link" href="#">
-                Github
-            </a>
-            <a class="link" href="#">
-                Linkedin
-            </a>
-        </nav>
-        </div>
+
+
+<!--==============================Header==============================-->
+    <header>
+        <h1>Christyan Menezes</h1>
     </header>
+    <section class="intro">
+        <div class="textIntro">
+            <p>Desenvolvedor Full Stack</p>
+            <h2>Olá, eu sou</h2>
+            <h1>Christyan <span>Menezes</span></h1>
+            <p>Desenvolvedor Fullstack em formação,Transformando ideias em aplicações interessantes e modernas.</p>
+            <a href="" id="button"><i class="fa-brands fa-whatsapp"></i> Entrar em contato</a>
+        </div>
+        <div class="fotoIntro">
+            <img src="fotos/foto test.jpeg" alt="Minha foto">
+        </div>
+        <nav>
+            <a id="mail" href="mailto:menezeschristyan6@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            <a id="github" href="#"><i class="fa-brands fa-github"></i></a>
+            <a id="link" href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </nav>
+    </section>
+
+
+<!--==============================Hero==============================-->
+    <section class="hero">
+        <div class="carrossel__hero">
+            <img src="fotos/pexels-negativespace-160107.jpg" alt="Fundo 1" class="fundo--hero">
+            <img src="fotos/pexels-nemuel-6424583.jpg" alt="Fundo 2" class="fundo--hero">
+            <img src="fotos/pexels-nemuel-6424584.jpg" alt="Fundo 3" class="fundo--hero">
+        </div>        
+    </section>
+
+
+<!--==============================Main==============================-->
     <main>
-        <section id="sobre">
-            <div>
-                <h3>Sobre</h3>
-                <img src="foto test.jpeg" alt="Minha foto">
-                <p>
-                Olá, eu sou Christyan.
-                Estou construindo minha trajetória como desenvolvedor Full Stack. Atualmente estudo Python, HTML, CSS, JavaScript, MySQL Workbench, React, Flask e Django, sempre buscando transformar aprendizado em projetos práticos.
-                </p>
-                <p>O que mais me interessa na programação é entender como as coisas funcionam por trás das aplicações e usar esse conhecimento para criar soluções úteis e bem estruturadas. Gosto de aprender na prática, enfrentar novos desafios e acompanhar minha evolução a cada projeto concluído.
-                </p>
-                <p>Este portfólio reúne parte dessa jornada, mostrando o que venho construindo, aprendendo e aperfeiçoando enquanto busco crescer como desenvolvedor.
-                </p>
-            </div>
+        <section>
+
+
+<!--==============================Sobre==============================-->
+            <article id="sobre">
+                <i class="fa-solid fa-user"></i>
+                <div class="text">
+                    <h3>Sobre</h3>
+
+                    <p>Olá, eu sou Christyan. Estou construindo minha trajetória como desenvolvedor Full Stack. Atualmente estudo Python, HTML e CSS, JavaScript, MySQL Workbench, React, sempre buscando transformar aprendizado em projetos práticos.</p>
+
+                    <p>O que mais me interessa na programação é entender como as coisas funcionam por trás das aplicações e usar esse conhecimento para criar soluções úteis e bem estruturadas. Gosto de aprender na prática, enfrentar novos desafios e acompanhar minha evolução a cada projeto concluído.</p>
+
+                    <p>Este portfólio reúne parte dessa jornada, mostrando o que venho construindo, aprendendo e aperfeiçoando enquanto busco crescer como desenvolvedor.</p>
+                </div>
+            </article>
+            
+
+<!--==============================Tecnologias==============================-->
+            <article id="tecnologias">
+                <p>Tecnologias</p>
+                <h3>Tecnologias que eu Utilizo</h3>
+                <div class="alinhar__itens">
+
+
+<!--==============================Frontend==============================-->
+                    <div>
+                        <h3>Frontend</h3>
+                    </div>
+                    <div class="linguagens">
+                        <div class="itens--info">
+                            <i class="devicon-html5-plain"></i>
+                            <p>HTML5</p>
+                        </div>
+                        <div class="itens--info">
+                            <i class="devicon-css3-plain"></i>
+                            <p>CSS3</p>
+                        </div>
+                        <div class="itens--info">
+                            <i class="devicon-javascript-plain"></i>
+                            <p>Javascript</p>
+                        </div>
+                        <div class="itens--info">
+                            <i class="devicon-typescript-plain"></i>
+                            <p>Typescript</p>
+                        </div>
+                        <div class="itens--info">
+                            <i class="devicon-react-original"></i>
+                            <p>React</p>
+                        </div>
+                    </div>
+
+
+<!--==============================Backend==============================-->
+                    <div>
+                        <h3>Backend</h3>
+                    </div>
+                    <div class="linguagens">                      
+                        <div class="itens--info">
+                            <i class="devicon-python-plain"></i>
+                            <p>Python</p>
+                        </div>
+                        <div class="itens--info">
+                            <i class="devicon-nodejs-plain"></i>
+                            <p>NodeJS</p>
+                        </div>
+                    </div>
+
+
+<!--==============================Banco de Dados==============================-->
+                    <div>
+                        <h3>Banco de Dados</h3>
+                    </div>
+                    <div class="linguagens">
+                        <div class="itens--info">
+                            <i class="devicon-mysql-original"></i>
+                            <p>MySQL</p>
+                        </div>
+                    </div>
+                    
+
+<!--==============================Ferramentas==============================-->
+                    <div>
+                        <h3>Ferramentas</h3>
+                    </div>
+                    <div class="linguagens">
+                        <div class="itens--info">
+                            <i class="devicon-git-plain"></i>
+                            <p>Git</p>
+                        </div>
+                        <div class="itens--info">
+                            <i class="devicon-github-original"></i>
+                            <p>Github</p>
+                        </div>
+                        <div class="itens--info">
+                            <i class="devicon-vscode-plain"></i>
+                            <p>VSCode</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article id="projetos">
+                <h3>Projetos em Destaque</h3>
+
+                <p>Cada projeto aqui representa uma etapa da minha jornada como desenvolvedor. São desafios que me ajudaram a aprender novas tecnologias, encontrar soluções para problemas reais e evoluir na prática.</p>
+                <p>Este espaço reúne parte do que venho construindo, aprendendo e aprimorando ao longo da minha trajetória na programação.</p>
+            </article>
+
+            <article id="objetivo">
+                <div>
+                    <i class="fa-solid fa-crosshairs"></i>
+                <h3>Objetivo</h3>
+                </div>
+
+                <p>Meu objetivo é crescer como desenvolvedor, participar de projetos desafiadores e transformar conhecimento em experiência prática. Busco oportunidades que me permitam aprender, colaborar com outras pessoas e continuar evoluindo enquanto construo soluções úteis e bem estruturadas.
+                Primeira área em mente: Análise de dados com Python.</p>
+            </article>
         </section>
-        <section id="objetivos">
-            <div>
-                <h3>
-                    Objetivo
-                </h3>
-                <p>
-                Meu objetivo é crescer como desenvolvedor, participar de projetos desafiadores e transformar conhecimento em experiência prática.
-                </p>
-                <p>Busco oportunidades que me permitam aprender, colaborar com outras pessoas e continuar evoluindo enquanto construo soluções úteis e bem estruturadas.
-                Primeira área em mente: Análise de dados com Python.
-                </p>
-            </div>
-        </section>
-        <section id="habilidades">
-            <div>
-                <h3>
-                    Projetos em Destaque
-                </h3>
-                <p>
-                Cada projeto aqui representa uma etapa da minha jornada como desenvolvedor. São desafios que me ajudaram a aprender novas tecnologias, encontrar soluções para problemas reais e evoluir na prática.
-                </p>
-                <p>Gosto de transformar ideias em aplicações funcionais, explorando diferentes ferramentas e buscando sempre escrever código mais organizado e eficiente do que no projeto anterior.
-                </p>
-                <p>Este espaço reúne parte do que venho construindo, aprendendo e aprimorando ao longo da minha trajetória na programação.
-                </p>
-            </div>
-        </section>
-            <div>
-                <footer>
-                    <p id="direitos">
-                        Christyan Menezes ₢ 2026
-                    </p>
-                </footer>
-            </div>
     </main>
+
+
+<!--==============================Footer==============================-->
+    <footer>
+        <p>Christyan Menezes ₢ 2026</p>
+    </footer>
+
+
+<!--==============================Scripts==============================-->
+    <script src="JS/script.js"></script>
 </body>
 </html>
